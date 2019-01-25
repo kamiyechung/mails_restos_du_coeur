@@ -3,8 +3,21 @@ GEM
   specs:
     ast (2.4.0)
     coderay (1.1.2)
+    csv (3.0.4)
+    gmail (0.7.1)
+      gmail_xoauth (>= 0.3.0)
+      mail (>= 2.2.1)
+    gmail_xoauth (0.4.2)
+      oauth (>= 0.3.6)
     jaro_winkler (1.5.2)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
     method_source (0.9.2)
+    mini_mime (1.0.1)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.1)
+      mini_portile2 (~> 2.4.0)
+    oauth (0.5.4)
     parallel (1.13.0)
     parser (2.6.0.0)
       ast (~> 2.4.0)
@@ -28,6 +41,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  csv
+  gmail
+  nokogiri
   pry
   rubocop (~> 0.57.2)
 
